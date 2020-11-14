@@ -1,6 +1,5 @@
 class profile::base {
   user {'admin':
-    ensure => present,
+    ensure => present
   }
-  inculde profile::ssh_server
 }
